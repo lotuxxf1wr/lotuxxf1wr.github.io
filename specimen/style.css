@@ -4,6 +4,11 @@
 	font-weight: 400;
 }
 
+@font-face{
+  font-family: 'KMR';
+  src: url('KMRMelangeGrotesk-Book.woff') format('woff');
+}
+
 
 body{
 	/* this is the outermost element on your page*/
@@ -134,3 +139,27 @@ body{
       }
     }
   </style>
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row; /* 수평 배치 */
+    gap: 20px; /* 열 사이 간격 */
+    justify-content: space-between; /* 열 간격 균등 분배 */
+    align-items: flex-start; /* 열의 상단 정렬 */
+    padding: 0 40px; /* 양쪽 여백 */
+    max-width: 1200px; /* 최대 너비 */
+    margin: 0 auto; /* 중앙 정렬 */
+}
+
+.column {
+    flex: 1; /* 각 열을 동일한 너비로 배분 */
+    line-height: 1.6; /* 줄 간격 */
+    text-align: justify; /* 텍스트 정렬 */
+    font-family: 'KMR';
+    font-size: 12px;
+    color: #000;
+}
+
+
+
