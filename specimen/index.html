@@ -6,43 +6,46 @@
 	<title>Yuha Cho</title>
 	<script src="script.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="script.js"></script>
 </head>
 <body>
 	<div>
-		<section class="section-info selection">
-			<div>
-					<a href="https://lotuxxf1wr.github.io/" class="button">
-					Home
-			</a>
-			 <div class="container">
-    <img src="img/1.jpg" class="floating-image">
-    <img src="img/2.jpg" class="floating-image">
-    <img src="img/3.jpg" class="floating-image">
-    <img src="img/4.jpg" class="floating-image">
-    <img src="img/5.jpg" class="floating-image">
-    <img src="img/6.jpg" class="floating-image">
-    <img src="img/7.jpg" class="floating-image">
-    <img src="img/8.jpg" class="floating-image">
-    <img src="img/9.jpg" class="floating-image">
-  </div>
-  <br>
-				<span>
-					<span class="Big"> Avant Garde
-					</span>
-				<br>
-	<div class="flex-container">
-		<section class="column">
-        Although the term avant-garde was originally applied to innovative approaches to art making in the nineteenth and early twentieth centuries, it is applicable to all art that pushes the boundaries of ideas and creativity, and is still used today to describe art that is radical or reflects originality of vision. 
-    </section>
-    <section class="column">
-        This is a project website made for Type Lovers Class instructed by Ryan Budgen, Nick Sherman, Marie Otsuka. The website was designed, developed by Yuha Cho.
-    </section>
-</div>
-			<br>
+		<nav class="navigation">
+			<div class="text-effect">
+				<a href="/">Avant Serif</a>
 			</div>
 			<div>
+				<span class="text-effect"><a href="/beauty/index.html">Beauty</a></span>
+				,
+				<span class="text-effect"><a href="/">Fashion</a></span>
+				,
+				<span class="text-effect"><a href="/info/">Info</a></span>
 			</div>
-		</section>
+			<div class="text-effect">
+				<button onclick="myFunction()" class="button-deco text-effect" id="mode-toggle">Mode<span style="font-size: 20px">✶</span></button>
+				<script>
+					function myFunction() {
+					   var element = document.body;
+					   element.classList.toggle("dark-mode");
+					}
+					</script>
+					</div>
+		</nav>
+		 <div class="container">
+			 <img src="img/1.jpg" class="floating-image"> 
+			 <img src="img/2.jpg" class="floating-image">
+			 <img src="img/3.jpg" class="floating-image">
+			 <img src="img/4.jpg" class="floating-image">
+			 <img src="img/5.jpg" class="floating-image">
+			 <img src="img/6.jpg" class="floating-image">
+			 <img src="img/7.jpg" class="floating-image">
+			 <img src="img/8.jpg" class="floating-image">
+			 <img src="img/9.jpg" class="floating-image">
+			 </div>
+		<div class="big">
+			Avant Garde
+		</div>
+			</div>
 	</div>
 </body>
 </html>
